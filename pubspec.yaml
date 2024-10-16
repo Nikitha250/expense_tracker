@@ -1,0 +1,37 @@
+name: track_your_expenses
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.7.0
+  fl_chart: ^0.69.0
+  intl: ^0.19.0
+  flutter_colorpicker: ^1.1.0
+  uuid: ^4.5.1
+
+  firebase_core: ^3.6.0
+
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+
+  expense_repository:
+    path: packages/expense_repository
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
