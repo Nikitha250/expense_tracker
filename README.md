@@ -1,3 +1,2 @@
-# track_your_expenses
+# expense_tracker
 
-A new Flutter project.
